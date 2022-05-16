@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textForTitleToSignUp2"
+        android:id="@+id/logintext"
         android:layout_width="0dp"
         android:layout_height="200dp"
         android:gravity="center|center_horizontal"
