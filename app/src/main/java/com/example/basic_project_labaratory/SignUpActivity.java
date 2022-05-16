@@ -29,7 +29,7 @@ public class SignUpActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         final TextView textView = (TextView) findViewById(R.id.Title);
 
-        findViewById(R.id.SignUpinSingUPActivity).setOnClickListener(onClickListener);
+        findViewById(R.id.SignUpinSignUpActivity).setOnClickListener(onClickListener);
     }
     @Override
     public void onStart() {
@@ -43,7 +43,7 @@ public class SignUpActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             switch (view.getId()) {
-                case R.id.SignUpinSingUPActivity:
+                case R.id.SignUpinSignUpActivity:
                     signUp();
                     Intent intent = new Intent(getApplicationContext(),personalInformationActivity.class);
                     startActivity(intent);

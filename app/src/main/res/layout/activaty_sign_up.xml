@@ -59,7 +59,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textForTitleToSignUp" />
 
     <Button
-        android:id="@+id/SignUpinSingUPActivity"
+        android:id="@+id/SignUpinSignUpActivity"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="가입하기"
