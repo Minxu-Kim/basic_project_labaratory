@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activaty_login.xml" value="0.33" />
-        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activaty_sign_up.xml" value="0.32155797101449274" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activaty_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_home.xml" value="0.2" />
         <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_personal_information.xml" value="0.25" />
         <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_prepare_scan.xml" value="0.25" />
         <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/content_main.xml" value="0.22" />
         <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/fragment_first.xml" value="0.33" />

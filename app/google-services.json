@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "761115005626",
+    "firebase_url": "https://basic-project-lab-default-rtdb.firebaseio.com",
     "project_id": "basic-project-lab",
     "storage_bucket": "basic-project-lab.appspot.com"
   },

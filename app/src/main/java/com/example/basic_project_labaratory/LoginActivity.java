@@ -2,10 +2,10 @@ package com.example.basic_project_labaratory;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,20 +16,21 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-public class SignUpActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
     private static final String TAG = "LoginActivity";
     private FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activaty_sign_up);
+        setContentView(R.layout.activaty_login);
 
         // Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance();
-        final TextView textView = (TextView) findViewById(R.id.Title);
+        final TextView textView = (TextView) findViewById(R.id.logintext);
 
-        findViewById(R.id.SignUpinSignUpActivity).setOnClickListener(onClickListener);
+        findViewById(R.id.LoginInLoginActivity).setOnClickListener(onClickListener);
+        findViewById(R.id.signUpInLoginactivity).setOnClickListener(onClickListener);
     }
     @Override
     public void onStart() {
@@ -43,36 +44,35 @@ public class SignUpActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             switch (view.getId()) {
-                case R.id.SignUpinSignUpActivity:
-                    signUp();
-                    Intent intent = new Intent(getApplicationContext(),personalInformationActivity.class);
+                case R.id.LoginInLoginActivity:
+                    Login();
+                    break;
+                case R.id.signUpInLoginactivity:
+                    Intent intent = new Intent(getApplicationContext(),SignUpActivity.class);
                     startActivity(intent);
                     break;
             }
         }
     };
-    private void signUp() {
-        Log.d(TAG,"12");
+    private void Login() {
         String email = ((EditText)findViewById(R.id.editTextTextEmailAddress)).getText().toString();
         String password = ((EditText)findViewById(R.id.editTextTextPassword)).getText().toString();
-        mAuth.createUserWithEmailAndPassword(email, password)
-                .addOnCompleteListener(this, new  OnCompleteListener<AuthResult>() {
+        mAuth.signInWithEmailAndPassword(email, password)
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in user's information
-                            Log.d(TAG, "createUserWithEmail:success");
+                            Log.d(TAG, "signInWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
-                            Intent intent = new Intent(getApplicationContext(),personalInformationActivity.class);
-                            startActivity(intent);
+                            //성공시 UI
                         } else {
                             // If sign in fails, display a message to the user.
-                            Log.w(TAG, "createUserWithEmail:failure", task.getException());
-                            Intent intent = new Intent(getApplicationContext(),SignUpActivity.class);
-                            startActivity(intent);
+                            Log.w(TAG, "signInWithEmail:failure", task.getException());
+                            //실패시 UI
+
                         }
                     }
-
                 });
     }
 }
