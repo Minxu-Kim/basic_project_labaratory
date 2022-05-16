@@ -14,6 +14,7 @@
         android:hint="Password Confirm"
         android:inputType="textPassword"
         android:minHeight="48dp"
+        android:textColorHint="#757575"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TextPassword" />
@@ -58,10 +59,10 @@
         app:layout_constraintTop_toBottomOf="@+id/textForTitleToSignUp" />
 
     <Button
-        android:id="@+id/generate"
+        android:id="@+id/SignUpinSingUPActivity"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="생성하기"
+        android:text="가입하기"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
