@@ -13,15 +13,15 @@
         tools:layout_editor_absoluteY="94dp">
 
         <TextView
-            android:id="@+id/mainTextViewForPersonalInformation"
+            android:id="@+id/textForTitleToSignUp3"
             android:layout_width="0dp"
-            android:layout_height="150dp"
-            android:gravity="bottom|left"
-            android:text="회원 정보 기입"
+            android:layout_height="200dp"
+            android:gravity="center|center_horizontal"
+            android:text="회원정보 기입"
             android:textColor="#000000"
-            android:textSize="34sp"
+            android:textSize="24sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -78,7 +78,6 @@
             android:id="@+id/weightinput"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="430dp"
             android:ems="10"
             android:inputType="numberDecimal"
             android:minHeight="48dp"
@@ -86,7 +85,7 @@
             android:textColor="#000000"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/mainTextViewForPersonalInformation" />
+            tools:layout_editor_absoluteY="430dp" />
 
         <Button
             android:id="@+id/signUpForPersonalInformation"
