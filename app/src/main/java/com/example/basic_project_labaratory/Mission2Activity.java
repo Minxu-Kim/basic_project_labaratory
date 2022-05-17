@@ -4,28 +4,24 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class main_activity extends AppCompatActivity {
-
+public class Mission2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_mission2);
 
-        final TextView textView = (TextView) findViewById(R.id.Title);
-
-        Button startbutton = (Button) findViewById(R.id.start_button);
-        startbutton.setOnClickListener(new View.OnClickListener(){
+        Button common = findViewById(R.id.common_mission2);
+        Button personal = findViewById(R.id.personal_mission2);
+        //공통미션으로 넘어가기
+        common.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),homeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), Mission1Activity.class);
                 startActivity(intent);
             }
         });
     }
-
-
 }

@@ -62,7 +62,7 @@
         android:id="@+id/SignUpinSignUpActivity"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="가입하기"
+        android:text="다음"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
