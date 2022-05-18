@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.133" />
 
     <Button
-        android:id="@+id/feedbackActivityTitle10"
+        android:id="@+id/toMainFromFeedback3"
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_marginStart="15dp"
