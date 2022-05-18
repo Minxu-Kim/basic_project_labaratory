@@ -12,10 +12,10 @@ public class feedback3Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feedback3);
-
+        // 홈 화면으로 돌아가는 버튼
         Button toMain = findViewById(R.id.toMainFromFeedback3);
 
-        //랭킹 화면으로 넘어가기
+        //홈 화면으로 돌아가기
         toMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
