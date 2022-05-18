@@ -57,7 +57,7 @@ public class feedback2Activity extends AppCompatActivity {
     // 식사1, 식사2, 식사3 버튼 클릭시 mealNumber 변수에 1, 2, 3 저장
     // getMealNumber() 멤버로 본 public class 밖에서 접근할 수 있음
     // 이 데이터는 다음 화면인 feedback3Activity 에서 활용
-    private int mealNumber = 0;
-    public int getMealNumber(){return mealNumber;}
+    private static int mealNumber = 0;
+    public static int getMealNumber(){return mealNumber;}
 
 }

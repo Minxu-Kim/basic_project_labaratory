@@ -5,21 +5,21 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/feedbackActivityTitle9"
+        android:id="@+id/feedback3ActivityTitle"
         android:layout_width="0dp"
-        android:layout_height="300dp"
+        android:layout_height="50dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:text="영양성분 분석"
+        android:text="(날짜) 식사1 상세정보"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.598" />
+        app:layout_constraintVertical_bias="0.024" />
 
     <Button
-        android:id="@+id/feedbackActivityTitle8"
+        android:id="@+id/mealDetails"
         android:layout_width="0dp"
         android:layout_height="150dp"
         android:layout_marginStart="15dp"
@@ -33,30 +33,30 @@
         app:layout_constraintVertical_bias="0.133" />
 
     <Button
+        android:id="@+id/mealNutritionFacts"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:text="영양성분 분석"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
+
+    <Button
         android:id="@+id/toMainFromFeedback3"
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:text="메인으로"
+        android:text="홈으로"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.925" />
-
-    <Button
-        android:id="@+id/feedbackActivityTitle7"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
-        android:text="(날짜) 식사1 상세정보"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024" />
 </androidx.constraintlayout.widget.ConstraintLayout>
