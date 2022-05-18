@@ -5,26 +5,12 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/feedbackActivityTitle"
-        android:layout_width="382dp"
-        android:layout_height="293dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
-        android:text="달력 들어갈 자리"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.171" />
-
-    <Button
-        android:id="@+id/feedbackActivityTitle2"
+        android:id="@+id/feedbackActivityTitle7"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:text="철수의 이번달 식단"
+        android:text="(날짜) 식사1 상세정보"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
