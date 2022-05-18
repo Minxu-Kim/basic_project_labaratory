@@ -25,29 +25,60 @@
     </activity>
         <activity android:name=".LoginActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".SignUpActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".personalInformationActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+        <activity
+            android:name=".homeActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".home2Activity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Mission1Activity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Mission2Activity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Ranking1Activity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Ranking2Activity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".MygroupActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".informationActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".feedbackActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".feedback2Activity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".feedback3Activity"
+            android:exported="true">
+        </activity>
+
     </application>
 
 
