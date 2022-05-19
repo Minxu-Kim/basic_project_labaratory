@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CalendarView;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,17 +14,17 @@ public class feedbackActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feedback);
-
         // 특정 날짜 식단 피드백 들어가는 버튼
-        Button daily = findViewById(R.id.calendar);
-
-        // 달력에서 특정 날짜 식단 피드백 화면으로 넘어가기
-        daily.setOnClickListener(new View.OnClickListener() {
+        CalendarView calendar = (CalendarView) findViewById(R.id.calendar);
+        //putExtra, getExtra 이용해서 데이터 주고 받도록 코드 작성 해야함
+        calendar.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
-            public void onClick(View view) {
+            public void onSelectedDayChange(CalendarView view, int year, int month, int dayOfMonth) {
                 Intent intent = new Intent(getApplicationContext(), feedback2Activity.class);
                 startActivity(intent);
+
             }
         });
+
     }
 }
