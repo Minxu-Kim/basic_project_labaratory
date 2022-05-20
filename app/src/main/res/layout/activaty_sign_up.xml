@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background=" #7b9acc">
 
     <EditText
         android:id="@+id/TextPasswordConfirm"
@@ -24,8 +25,9 @@
         android:layout_width="0dp"
         android:layout_height="200dp"
         android:gravity="center|center_horizontal"
+
         android:text="회원가입"
-        android:textColor="#000000"
+        android:textColor="#FCF6F5"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,10 +62,13 @@
 
     <Button
         android:id="@+id/SignUpinSignUpActivity"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="377dp"
+        android:layout_height="48dp"
+        android:background="@drawable/shape_button_main"
         android:text="다음"
-        android:textSize="24sp"
+        android:textColor=" #7b9acc"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
