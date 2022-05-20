@@ -1,9 +1,11 @@
 package com.example.basic_project_labaratory;
 
 public class Meal { // 식사에 대한 정보를 저장하는 클래스
+    private String[] menu;
     private int cal, carbs, protein, fat, sodium; // 영양정보
 
     public Meal(int cal, int carbs, int protein, int fat, int sodium){ // 생성자
+        this.menu = new String[20]; // 반찬 개수 20개까지
         this.cal = cal;
         this.carbs = carbs;
         this.protein = protein;
