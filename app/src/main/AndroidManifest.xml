@@ -2,7 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.basic_project_labaratory">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -14,73 +22,73 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Basic_project_labaratory"
         tools:targetApi="31">
-    <activity
-        android:name=".main_activity"
-        android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity
+            android:name=".PrepareScanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main_activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
-        <activity android:name=".LoginActivity"
-            android:exported="true">
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name=".SignUpActivity"
-            android:exported="true">
-        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true" />
         <activity
             android:name=".personalInformationActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".homeActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".home2Activity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Mission1Activity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Mission2Activity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Ranking1Activity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Ranking2Activity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".MygroupActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".informationActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".feedbackActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".feedback2Activity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".feedback3Activity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
 
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.basic_project_labaratory.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
     </application>
-
-
 
 </manifest>

@@ -25,7 +25,7 @@ public class main_activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    }
 
+    }
 
 }

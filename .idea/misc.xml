@@ -3,23 +3,36 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activaty_login.xml" value="0.1" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activaty_sign_up.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_feedback.xml" value="0.264" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_feedback2.xml" value="0.1" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_feedback3.xml" value="0.264" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_home.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_home2.xml" value="0.2" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_information.xml" value="0.264" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_main2.xml" value="0.2" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_mission1.xml" value="0.1" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_personal_information.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_prepare_scan.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_rank1.xml" value="0.11594202898550725" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_rank2.xml" value="0.11594202898550725" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/content_main.xml" value="0.2" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/fragment_second.xml" value="0.2" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activaty_login.xml" value="0.12952898550724637" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activaty_sign_up.xml" value="0.12952898550724637" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_feedback.xml" value="0.175" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_feedback2.xml" value="0.175" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_feedback3.xml" value="0.175" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_home.xml" value="0.12952898550724637" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_home2.xml" value="0.175" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_information.xml" value="0.175" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_main2.xml" value="0.13269927536231885" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_mission1.xml" value="0.22" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_mission2.xml" value="0.13269927536231885" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_mygroup.xml" value="0.175" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_personal_information.xml" value="0.12952898550724637" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_prepare_scan.xml" value="0.22" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_rank1.xml" value="0.175" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_rank2.xml" value="0.1" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_scan.xml" value="0.1408514492753623" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/pfs.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/prforscan.xml" value="0.1" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/menu/menu_main.xml" value="0.175" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.179" />
+        <entry key="..\:/Users/hiwon/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/xml/file_paths.xml" value="0.1" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activaty_login.xml" value="0.33" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activaty_sign_up.xml" value="0.32155797101449274" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_prepare_scan.xml" value="0.25" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/content_main.xml" value="0.22" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/fragment_first.xml" value="0.33" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/fragment_second.xml" value="0.17135416666666667" />
       </map>
     </option>
   </component>

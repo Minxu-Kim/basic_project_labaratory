@@ -24,5 +24,15 @@ public class Mission1Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //오늘의 미션으로 넘어가기
+        Button motd = findViewById(R.id.motd);
+        motd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), PrepareScanActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
