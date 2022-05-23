@@ -3,13 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1865" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/drawable/button_home.xml" value="0.1855" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1865" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/drawable/shape_button_main.xml" value="0.1855" />
         <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activaty_login.xml" value="0.33" />
         <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activaty_sign_up.xml" value="0.25" />
-        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_camera.xml" value="0.16271442986881937" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_common_mission.xml" value="0.18" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_feedback.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_feedback2.xml" value="0.25" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_feedback3.xml" value="0.33" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_home_personalinformationmanagement.xml" value="0.22" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_information.xml" value="0.33" />
         <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_mission1.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_mission2.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_mygroup.xml" value="0.1381340579710145" />
         <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_personal_information.xml" value="0.25" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_personal_information_init.xml" value="0.25" />
         <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_prepare_scan.xml" value="0.25" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_rank1.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_rank2.xml" value="0.1381340579710145" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_user_health.xml" value="0.25" />
         <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/content_main.xml" value="0.22" />
+        <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/fragment_camera2_basic.xml" value="0.5" />
         <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/fragment_first.xml" value="0.33" />
         <entry key="..\:/Users/rlaal/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/fragment_second.xml" value="0.17135416666666667" />
       </map>

@@ -6,31 +6,35 @@
     android:layout_height="match_parent"
     android:background="#7b9acc">
 
-    <TextView
-        android:id="@+id/Title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="어플이름"
-        android:textColor="#FCF6F5"
-        android:textSize="60sp"
+    <Button
+        android:id="@+id/group_ranking2"
+        android:layout_width="120dp"
+        android:layout_height="51dp"
+        android:background="@drawable/shape_button_main"
+        android:text="그룹랭킹"
+        android:textColor="#7b9acc"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.295"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.25" />
+        app:layout_constraintVertical_bias="0.044" />
 
     <Button
-        android:id="@+id/start_button"
-        android:layout_width="350dp"
-        android:layout_height="48dp"
+        android:id="@+id/personal_ranking2"
+        android:layout_width="120dp"
+        android:layout_height="51dp"
         android:background="@drawable/shape_button_main"
-        android:text="시작하기"
+        android:text="개인랭킹"
         android:textColor="#7b9acc"
-        android:textSize="20sp"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.707"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.85" />
+        app:layout_constraintVertical_bias="0.044" />
 </androidx.constraintlayout.widget.ConstraintLayout>

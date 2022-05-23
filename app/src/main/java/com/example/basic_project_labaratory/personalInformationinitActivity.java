@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -15,14 +16,16 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;
 
-public class personalInformationActivity extends AppCompatActivity {
+public class personalInformationInitActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_personal_information);
+        setContentView(R.layout.activity_personal_information_init);
 
-
+        TextView height = (TextView) findViewById(R.id.heighttextview);
+        TextView weight = (TextView) findViewById(R.id.weighttextview);
+        TextView age = (TextView) findViewById(R.id.agetextview);
 
         findViewById(R.id.signUpForPersonalInformation).setOnClickListener(onClickListener);
     }
