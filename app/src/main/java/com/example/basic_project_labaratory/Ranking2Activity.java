@@ -4,28 +4,24 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class main_activity extends AppCompatActivity {
-
+public class Ranking2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_rank2);
+        Button group = findViewById(R.id.group_ranking2);
+        Button personal = findViewById(R.id.personal_ranking2);
 
-        final TextView textView = (TextView) findViewById(R.id.Title);
-
-        Button startbutton = (Button) findViewById(R.id.start_button);
-        startbutton.setOnClickListener(new View.OnClickListener(){
+        //개인랭킹으로 넘어가기
+        group.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),homeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), Ranking1Activity.class);
                 startActivity(intent);
             }
         });
     }
-
-
 }
