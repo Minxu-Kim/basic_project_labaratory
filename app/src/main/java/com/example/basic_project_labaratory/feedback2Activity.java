@@ -60,4 +60,8 @@ public class feedback2Activity extends AppCompatActivity {
     private static int mealNumber = 0;
     public static int getMealNumber(){return mealNumber;}
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/진명
 }

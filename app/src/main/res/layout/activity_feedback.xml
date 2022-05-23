@@ -7,7 +7,11 @@
     android:background="#7b9acc">
 
     <Button
+<<<<<<< HEAD
+        android:id="@+id/feedback3ActivityTitle"
+=======
         android:id="@+id/feedbackActivityTitle"
+>>>>>>> origin/진명
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="15dp"

@@ -29,9 +29,17 @@ public class feedback3Activity extends AppCompatActivity {
         toMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+<<<<<<< HEAD
+                Intent intent = new Intent(getApplicationContext(), uiHomeActivity.class);
+=======
                 Intent intent = new Intent(getApplicationContext(), homeActivity.class);
+>>>>>>> origin/진명
                 startActivity(intent);
             }
         });
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/진명

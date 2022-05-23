@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background=" #7b9acc">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -13,27 +14,29 @@
         tools:layout_editor_absoluteY="94dp">
 
         <TextView
-            android:id="@+id/mainTextViewForPersonalInformation"
+            android:id="@+id/nameText"
             android:layout_width="0dp"
-            android:layout_height="150dp"
-            android:gravity="bottom|left"
-            android:text="회원 정보 기입"
-            android:textColor="#000000"
-            android:textSize="34sp"
+            android:layout_height="200dp"
+            android:gravity="center|center_horizontal"
+            android:text="의 건강정보"
+            android:textColor="#FCF6F5"
+            android:textSize="24sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:gravity="bottom" />
 
         <EditText
-            android:text="Age"
-            android:id="@+id/ageinput"
+            android:id="@+id/ai"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="230dp"
             android:ems="10"
             android:inputType="number"
             android:minHeight="48dp"
+            android:text="Age"
+            android:textColor="#FCF6F5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="300dp"
             android:text="키"
-            android:textColor="#000000"
+            android:textColor="#FCF6F5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -56,48 +59,39 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="400dp"
             android:text="몸무게"
-            android:textColor="#000000"
+            android:textColor="#FCF6F5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:text="Height"
-            android:id="@+id/heightinput"
+            android:id="@+id/hi"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="330dp"
             android:ems="10"
             android:inputType="numberDecimal"
             android:minHeight="48dp"
+            android:text="Height"
+            android:textColor="#FCF6F5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/weightinput"
+            android:id="@+id/wi"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="430dp"
+            android:layout_marginTop="428dp"
             android:ems="10"
             android:inputType="numberDecimal"
             android:minHeight="48dp"
             android:text="Weight"
-            android:textColor="#000000"
+            android:textColor="#FCF6F5"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/mainTextViewForPersonalInformation" />
-
-        <Button
-            android:id="@+id/signUpForPersonalInformation"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="120dp"
-            android:text="가입하기"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -107,7 +101,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
         android:text="나이"
-        android:textColor="#000000"
+        android:textColor="#FCF6F5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

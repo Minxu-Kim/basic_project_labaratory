@@ -7,18 +7,18 @@
     android:background=" #7b9acc">
 
     <EditText
-        android:id="@+id/TextPasswordConfirm"
+        android:id="@+id/passwordconfirm"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
         android:ems="10"
         android:hint="Password Confirm"
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:textColorHint="#757575"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/Password" />
 
     <TextView
         android:id="@+id/textForTitleToSignUp"
@@ -35,7 +35,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/TextPassword"
+        android:id="@+id/Password"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
@@ -45,10 +45,10 @@
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TextEmailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/Email" />
 
     <EditText
-        android:id="@+id/TextEmailAddress"
+        android:id="@+id/Email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -72,5 +72,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TextPasswordConfirm" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordconfirm" />
 </androidx.constraintlayout.widget.ConstraintLayout>
