@@ -73,7 +73,7 @@ public class SignUpActivity extends AppCompatActivity {
                                 if (task.isSuccessful()) {
                                     FirebaseUser user = mAuth.getCurrentUser();
                                     StartToast( "회원가입에 성공하였습니다.");
-                                    myStartActivity(personalInformationInitActivity.class);
+                                    myStartActivity(personalInformationActivity.class);
                                 } else {
                                     if(task.getException() != null){
                                         StartToast( task.getException().toString());

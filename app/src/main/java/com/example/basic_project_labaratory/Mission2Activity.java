@@ -19,7 +19,7 @@ public class Mission2Activity extends AppCompatActivity {
         common.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Mission1Activity.class);
+                Intent intent = new Intent(getApplicationContext(), mission1Activity.class);
                 startActivity(intent);
             }
         });

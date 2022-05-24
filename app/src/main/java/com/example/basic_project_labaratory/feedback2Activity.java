@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class feedback2Activity extends AppCompatActivity {
     @Override // 식단 피드백 2 - 일별 식단 피드백
-    protected void onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feedback2);
 
@@ -58,10 +58,10 @@ public class feedback2Activity extends AppCompatActivity {
     // getMealNumber() 멤버로 본 public class 밖에서 접근할 수 있음
     // 이 데이터는 다음 화면인 feedback3Activity 에서 활용
     private static int mealNumber = 0;
-    public static int getMealNumber(){return mealNumber;}
 
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/진명
+    public static int getMealNumber() {
+        return mealNumber;
+    }
 }
+
+

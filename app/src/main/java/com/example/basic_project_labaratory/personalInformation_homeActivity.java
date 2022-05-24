@@ -22,7 +22,7 @@ public class personalInformation_homeActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_personal_information);
+        setContentView(R.layout.activity_information);
 
         findViewById(R.id.health).setOnClickListener(onClickListener);
         findViewById(R.id.wearable).setOnClickListener(onClickListener);
@@ -36,10 +36,10 @@ public class personalInformation_homeActivity extends AppCompatActivity {
                         myStartActivity(Userhealthmanagement.class);
                         break;
                     case R.id.wearable:
-                        myStartActivity(uiHomeActivity.class);
+                        myStartActivity(wearable.class);
                         break;
                     case R.id.password:
-                        myStartActivity(uiHomeActivity.class);
+                        myStartActivity(password.class);
                         break;
                 }
             }

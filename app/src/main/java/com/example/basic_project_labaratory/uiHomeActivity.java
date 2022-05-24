@@ -56,7 +56,7 @@ public class uiHomeActivity extends AppCompatActivity {
                     break;
 
                 case R.id.rank:
-                    myStartActivity(LoginActivity.class);
+                    myStartActivity(home2Activity.class);
                     break;
 
             }
