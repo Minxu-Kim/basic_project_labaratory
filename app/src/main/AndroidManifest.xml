@@ -80,7 +80,7 @@
             android:exported="true">
         </activity>
         <activity
-            android:name=".mission1Activity"
+            android:name=".Mission1Activity"
             android:exported="true">
         </activity>
         <activity

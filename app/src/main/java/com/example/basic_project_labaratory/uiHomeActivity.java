@@ -52,7 +52,7 @@ public class uiHomeActivity extends AppCompatActivity {
                     break;
 
                 case R.id.missionmanagement:
-                    myStartActivity(mission1Activity.class);
+                    myStartActivity(Mission1Activity.class);
                     break;
 
                 case R.id.rank:

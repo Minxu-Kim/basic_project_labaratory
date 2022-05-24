@@ -15,7 +15,6 @@ public class Mission1Activity extends AppCompatActivity {
 
         Button common = findViewById(R.id.common_mission);
         Button personal = findViewById(R.id.personal_mission);
-
         //개인미션으로 넘어가기
         personal.setOnClickListener(new View.OnClickListener() {
             @Override
