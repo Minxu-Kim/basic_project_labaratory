@@ -33,23 +33,22 @@
         android:text="차트 들어갈 자리"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintHorizontal_bias="0.923"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.933" />
+        app:layout_constraintVertical_bias="0.952" />
 
     <CalendarView
         android:id="@+id/calendar"
-        android:layout_width="370dp"
-        android:layout_height="304dp"
+        android:layout_width="385dp"
+        android:layout_height="298dp"
         android:background="@drawable/shape_button_main"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.215"
-        />
+        app:layout_constraintVertical_bias="0.224" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

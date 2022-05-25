@@ -7,25 +7,9 @@
     android:background="#7b9acc">
 
     <Button
-        android:id="@+id/common_mission"
-        android:layout_width="120dp"
-        android:layout_height="51dp"
-        android:background="@drawable/shape_button_main"
-        android:text="공통미션"
-        android:textColor="#7b9acc"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.295"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.044" />
-
-    <Button
         android:id="@+id/personal_mission"
-        android:layout_width="120dp"
-        android:layout_height="51dp"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
         android:background="@drawable/shape_button_main"
         android:text="개인미션"
         android:textColor="#7b9acc"
@@ -33,8 +17,38 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.707"
+        app:layout_constraintHorizontal_bias="0.655"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.044" />
+
+    <Button
+        android:id="@+id/common_mission"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:background="@drawable/shape_button_main"
+        android:text="공통미션"
+        android:textColor="#7b9acc"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.334"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="370dp"
+        android:layout_height="553dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:backgroundTint="#FCF6F5"
-    tools:context=".homeActivity">
+    >
 
 
     <Button
@@ -35,7 +35,7 @@
     <Button
         android:id="@+id/missionmanagement"
         android:layout_width="384dp"
-        android:layout_height="150dp"
+        android:layout_height="140dp"
         android:background="@drawable/button_home"
         android:drawableLeft="@drawable/mission"
         android:drawableRight="@drawable/next"
@@ -49,15 +49,15 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.592"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.459" />
+        app:layout_constraintVertical_bias="0.448" />
 
     <Button
         android:id="@+id/rank"
         android:layout_width="384dp"
-        android:layout_height="150dp"
+        android:layout_height="140dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         android:background="@drawable/button_home"
@@ -76,12 +76,12 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78" />
+        app:layout_constraintVertical_bias="0.767" />
 
     <Button
         android:id="@+id/dietfeedback"
         android:layout_width="384dp"
-        android:layout_height="200dp"
+        android:layout_height="170dp"
         android:background="@drawable/button_home"
         android:drawableLeft="@drawable/dietfeedback"
         android:drawableRight="@drawable/next"
@@ -98,6 +98,6 @@
         app:layout_constraintHorizontal_bias="0.592"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.059" />
+        app:layout_constraintVertical_bias="0.071" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
