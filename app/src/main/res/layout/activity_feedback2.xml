@@ -7,7 +7,7 @@
     android:background="#7b9acc">
 
     <Button
-        android:id="@+id/feedbackActivity2Title"
+        android:id="@+id/feedback2ActivityTitle"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="15dp"
@@ -66,18 +66,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.414" />
 
-    <Button
-        android:id="@+id/chart2"
+
+    <FrameLayout
         android:layout_width="0dp"
         android:layout_height="300dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:text="차트 들어갈 자리"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.839" />
+        app:layout_constraintVertical_bias="0.839">
+
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

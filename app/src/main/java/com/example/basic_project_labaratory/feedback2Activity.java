@@ -13,6 +13,15 @@ public class feedback2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feedback2);
 
+        // getExtra로 feedbackActivity로부터 날짜정보 받아오기
+        int year = getIntent().getIntExtra("intYear", 1);
+        int month = getIntent().getIntExtra("intMonth", 1);
+        int day = getIntent().getIntExtra("intDay", 1);
+
+        // 식단 피드백 2 - 제목 표시용 버튼 및 텍스트
+        Button feedback2ActivityTitle = findViewById(R.id.feedback2ActivityTitle);
+        feedback2ActivityTitle.setText(year + "년 " + month + "월 " + day + "일 식단 피드백");
+
         // 식사 1 상세정보 가는 버튼
         Button meal1 = findViewById(R.id.meal1);
         // 식사 2 상세정보 가는 버튼
@@ -25,9 +34,12 @@ public class feedback2Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), feedback3Activity.class);
+                // putExtra로 날짜정보와 mealNumber = 1 넘기기
+                intent.putExtra("intYear", year);
+                intent.putExtra("intMonth", month);
+                intent.putExtra("intDay", day);
+                intent.putExtra("intMealNumber", 1);
                 startActivity(intent);
-                // 식사1 버튼 클릭시: mealNumber = 1
-                mealNumber = 1;
             }
         });
 
@@ -36,9 +48,12 @@ public class feedback2Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), feedback3Activity.class);
+                // putExtra로 날짜정보와 mealNumber = 2 넘기기
+                intent.putExtra("intYear", year);
+                intent.putExtra("intMonth", month);
+                intent.putExtra("intDay", day);
+                intent.putExtra("intMealNumber", 2);
                 startActivity(intent);
-                // 식사2 버튼 클릭시: mealNumber = 2
-                mealNumber = 2;
             }
         });
 
@@ -47,21 +62,14 @@ public class feedback2Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), feedback3Activity.class);
+                // putExtra로 날짜정보와 mealNumber = 3 넘기기
+                intent.putExtra("intYear", year);
+                intent.putExtra("intMonth", month);
+                intent.putExtra("intDay", day);
+                intent.putExtra("intMealNumber", 3);
                 startActivity(intent);
-                // 식사3 버튼 클릭시: mealNumber = 3
-                mealNumber = 3;
             }
         });
     }
 
-    // 식사1, 식사2, 식사3 버튼 클릭시 mealNumber 변수에 1, 2, 3 저장
-    // getMealNumber() 멤버로 본 public class 밖에서 접근할 수 있음
-    // 이 데이터는 다음 화면인 feedback3Activity 에서 활용
-    private static int mealNumber = 0;
-    public static int getMealNumber(){return mealNumber;}
-
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/진명
 }

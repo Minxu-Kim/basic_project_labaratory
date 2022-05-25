@@ -15,7 +15,7 @@ public class Meal { // 식사에 대한 정보를 저장하는 클래스
     public int getFat(){return this.fat;}
     public int getSodium(){return this.sodium;}
 
-    public void addFood(Food food){ // 음식 추가
+    public void addFood(Food food){ // 반찬 추가
         this.foods[this.n_foods] = food;
         this.n_foods++;
         this.cal = food.getCal();
