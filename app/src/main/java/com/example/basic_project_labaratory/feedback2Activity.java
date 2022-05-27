@@ -7,14 +7,6 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.github.mikephil.charting.charts.BarChart;
-import com.github.mikephil.charting.data.BarData;
-import com.github.mikephil.charting.data.BarDataSet;
-import com.github.mikephil.charting.data.BarEntry;
-import com.github.mikephil.charting.utils.ColorTemplate;
-import android.graphics.Color;
-import java.util.ArrayList;
-
 public class feedback2Activity extends AppCompatActivity {
     @Override // 식단 피드백 2 - 일별 식단 피드백
     protected void onCreate(Bundle savedInstanceState){
@@ -29,28 +21,6 @@ public class feedback2Activity extends AppCompatActivity {
         // 식단 피드백 2 - 제목 표시용 버튼 및 텍스트
         Button feedback2ActivityTitle = findViewById(R.id.feedback2ActivityTitle);
         feedback2ActivityTitle.setText(year + "년 " + month + "월 " + day + "일 식단 피드백");
-
-        ///////// 일일 영양섭취 차트 데이터 ////////////////////////////
-        BarChart barChart = findViewById(R.id.barChart);
-        ArrayList<BarEntry> nutritionTotal = new ArrayList<>();
-        nutritionTotal.add(new BarEntry(1, 1900));
-
-        BarDataSet barDataSet = new BarDataSet(nutritionTotal, "Visitors");
-        barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
-        barDataSet.setValueTextColor(Color.BLACK);
-        barDataSet.setValueTextSize(16f);
-
-        BarData barData = new BarData(barDataSet);
-
-        barChart.setFitBars(true);
-        barChart.setData(barData);
-        barChart.getDescription().setText("Bar Chart Example");
-        barChart.animateY(2000);
-
-
-
-
-        /////////////////////////////////////////////////////////////
 
         // 식사 1 상세정보 가는 버튼
         Button meal1 = findViewById(R.id.meal1);
