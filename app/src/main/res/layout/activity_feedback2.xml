@@ -83,9 +83,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="41dp">
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/cal_bar"
