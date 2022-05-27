@@ -15,6 +15,9 @@ public class feedbackActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feedback);
 
+        // DB 에서 가져올 일일 영양정보
+        int cal = 0, carbs = 0, protein = 0, fat = 0, sodium = 0;
+
         // 특정 날짜 식단 피드백 들어가는 달력 버튼
         CalendarView calendar = (CalendarView) findViewById(R.id.calendar);
 
@@ -26,6 +29,14 @@ public class feedbackActivity extends AppCompatActivity {
                 intent.putExtra("intYear", year);
                 intent.putExtra("intMonth", month);
                 intent.putExtra("intDay", day);
+
+                // 일일 영양정보 넘기기 (차트 그리기)
+                intent.putExtra("intCal", cal);
+                intent.putExtra("intCarbs", carbs);
+                intent.putExtra("intProtein", protein);
+                intent.putExtra("intFat", fat);
+                intent.putExtra("intSodium", sodium);
+
                 startActivity(intent);
 
             }
