@@ -35,7 +35,7 @@ public class feedback2Activity extends AppCompatActivity {
         ArrayList<BarEntry> nutritionTotal = new ArrayList<>();
         nutritionTotal.add(new BarEntry(1, 1900));
 
-        BarDataSet barDataSet = new BarDataSet(visitors, "Visitors");
+        BarDataSet barDataSet = new BarDataSet(nutritionTotal, "Visitors");
         barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
         barDataSet.setValueTextColor(Color.BLACK);
         barDataSet.setValueTextSize(16f);
@@ -46,6 +46,8 @@ public class feedback2Activity extends AppCompatActivity {
         barChart.setData(barData);
         barChart.getDescription().setText("Bar Chart Example");
         barChart.animateY(2000);
+
+
 
 
         /////////////////////////////////////////////////////////////
