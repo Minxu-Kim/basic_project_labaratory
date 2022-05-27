@@ -15,7 +15,7 @@ public class Mission1Item extends AppCompatActivity {
         setContentView(R.layout.mission1_item);
         TextView textView = findViewById(R.id.textView4);
 
-        Intent intent = getIntent();
-        intent.getStringExtra("Text");
+        //Intent intent = getIntent();
+        //intent.getStringExtra("Text");
     }
 }

@@ -3,13 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/drawable/button_home.xml" value="0.1" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activaty_login.xml" value="0.1" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_camera.xml" value="0.1" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_feedback.xml" value="0.11347517730496454" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_home2.xml" value="0.11347517730496454" />
-        <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_mission1.xml" value="0.16" />
-        <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_mission2.xml" value="0.1" />
+        <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_mission1.xml" value="0.12258064516129032" />
+        <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_mission2.xml" value="0.128" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_mygroup.xml" value="0.1" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_personal_information_init.xml" value="0.14375" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_prepare_scan.xml" value="0.2" />
@@ -21,6 +22,10 @@
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/fragment_camera2_basic.xml" value="0.1" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/mission1_item.xml" value="0.1" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/mission1_recyclerview.xml" value="0.11347517730496454" />
+        <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/mission2_dialog.xml" value="0.16" />
+        <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/mission2_item.xml" value="0.1" />
+        <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/mission2_list.xml" value="0.1" />
+        <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/mission2_recyclerview.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activaty_login.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activaty_sign_up.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/user/AndroidStudioProjects/basic_project_labaratory/app/src/main/res/layout/activity_feedback.xml" value="0.264" />

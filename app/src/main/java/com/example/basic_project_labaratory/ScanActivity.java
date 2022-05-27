@@ -188,8 +188,6 @@ public class ScanActivity extends AppCompatActivity {
     }
 
 
-    //출처: https://ebbnflow.tistory.com/177 [삶은 확률의 구름]
-
 
     /*
     public static Bitmap RotateBitmap(Bitmap source, float angle)
