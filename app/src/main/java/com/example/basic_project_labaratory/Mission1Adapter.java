@@ -51,7 +51,7 @@ public class Mission1Adapter extends RecyclerView.Adapter<Mission1Adapter.ItemVi
                 public void onClick(View v) {
                     int pos = getAdapterPosition();
                     if (pos != RecyclerView.NO_POSITION) {
-                        Intent intent = new Intent(mContext, Mission1Item.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        Intent intent = new Intent(mContext, CameraActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         //intent.putExtra("Text", listData.get(pos));
                         mContext.startActivity(intent);
 
