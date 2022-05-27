@@ -87,38 +87,51 @@
 
             <Button
                 android:id="@+id/cal_bar"
-                android:layout_marginStart="15dp"
-                android:layout_marginEnd="15dp"
-                android:layout_width="30dp"
-                android:layout_height="300dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:text="칼로리" />
 
             <Button
                 android:id="@+id/carbs_bar"
-                android:layout_width="30dp"
+                android:layout_width="match_parent"
                 android:layout_height="300dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:text="탄수화물" />
 
             <Button
                 android:id="@+id/protein_bar"
-                android:layout_width="30dp"
+                android:layout_width="match_parent"
                 android:layout_height="300dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:text="단백질" />
 
             <Button
                 android:id="@+id/fat_bar"
-                android:layout_width="30dp"
+                android:layout_width="match_parent"
                 android:layout_height="300dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:text="지방" />
 
             <Button
                 android:id="@+id/sodium_bar"
-                android:layout_width="30dp"
+                android:layout_width="match_parent"
                 android:layout_height="300dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:text="나트륨" />
 
