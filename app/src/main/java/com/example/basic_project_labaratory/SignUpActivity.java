@@ -60,9 +60,9 @@ public class SignUpActivity extends AppCompatActivity {
 
 
     private void signUp() {
-        String email = ((EditText)findViewById(R.id.editTextTextEmailAddress)).getText().toString();
-        String password = ((EditText)findViewById(R.id.editTextTextPassword)).getText().toString();
-        String passwordCheck = ((EditText)findViewById(R.id.editTextTextPassword)).getText().toString();
+        String email = ((EditText)findViewById(R.id.Email)).getText().toString();
+        String password = ((EditText)findViewById(R.id.Password)).getText().toString();
+        String passwordCheck = ((EditText)findViewById(R.id.passwordconfirm)).getText().toString();
 
         if(email.length() > 0 && password.length() > 0 && passwordCheck.length() > 0){
             if(password.equals(passwordCheck)){
@@ -73,7 +73,7 @@ public class SignUpActivity extends AppCompatActivity {
                                 if (task.isSuccessful()) {
                                     FirebaseUser user = mAuth.getCurrentUser();
                                     StartToast( "회원가입에 성공하였습니다.");
-                                    myStartActivity(personalInformationActivity.class);
+                                    myStartActivity(personalInformationInitActivity.class);
                                 } else {
                                     if(task.getException() != null){
                                         StartToast( task.getException().toString());

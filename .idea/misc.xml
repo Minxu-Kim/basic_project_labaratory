@@ -4,13 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/drawable/button_home.xml" value="0.1" />
-        <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activaty_login.xml" value="0.1" />
+        <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activaty_login.xml" value="0.2" />
+        <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activaty_sign_up.xml" value="0.1359375" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_camera.xml" value="0.1" />
-        <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_feedback.xml" value="0.11347517730496454" />
+        <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_feedback.xml" value="0.2" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_feedback2.xml" value="0.264" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_feedback3.xml" value="0.13385416666666666" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_home2.xml" value="0.11347517730496454" />
+        <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_mission1.xml" value="0.12258064516129032" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_mission2.xml" value="0.128" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activity_mission_start.xml" value="0.13385416666666666" />
