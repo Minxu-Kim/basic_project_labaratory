@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/drawable-v24/button.xml" value="0.171" />
+        <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/drawable-v24/timer.xml" value="0.171" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/drawable/button_home.xml" value="0.1" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activaty_login.xml" value="0.2" />
         <entry key="..\:/Users/myeong/StudioProjects/app/src/main/res/layout/activaty_sign_up.xml" value="0.1359375" />

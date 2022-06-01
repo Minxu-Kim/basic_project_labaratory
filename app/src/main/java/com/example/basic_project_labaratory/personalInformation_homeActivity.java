@@ -36,7 +36,7 @@ public class personalInformation_homeActivity extends AppCompatActivity {
                         myStartActivity(Userhealthmanagement.class);
                         break;
                     case R.id.wearable:
-                        myStartActivity(wearable.class);
+                        myStartActivity(wearablemanagement.class);
                         break;
                     case R.id.password:
                         myStartActivity(password.class);
