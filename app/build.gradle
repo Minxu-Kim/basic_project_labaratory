@@ -41,7 +41,6 @@ dependencies {
     implementation 'androidx.navigation:navigation-ui:2.3.5'
     implementation 'com.google.firebase:firebase-database:20.0.5'
     implementation 'com.google.firebase:firebase-auth'
-    implementation "com.doinglab.foodlens:FoodLens:2.3.3"
     implementation 'com.google.firebase:firebase-storage:20.0.1'
     implementation 'com.google.firebase:firebase-firestore:24.1.2'
         testImplementation 'junit:junit:4.13.2'

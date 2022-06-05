@@ -26,8 +26,6 @@ public class feedback3Activity extends AppCompatActivity {
 
         // 식단 피드백 3 - 식사 내용 표시용 버튼 및 텍스트
         Button MealDetails = findViewById(R.id.mealDetails);
-        MealDetails.setText("식사 " +
-                mealNumber + " - 내용");
 
         // 홈 화면으로 돌아가는 홈으로 버튼
         Button toMain = findViewById(R.id.toMainFromFeedback3);

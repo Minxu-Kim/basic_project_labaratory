@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="#7b9acc">
 
+
     <Button
         android:id="@+id/feedback2ActivityTitle"
         android:layout_width="0dp"
@@ -24,120 +25,49 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.024" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="383dp"
+        android:layout_height="376dp"
+        android:src="@drawable/chart2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
     <Button
         android:id="@+id/meal1"
-        android:layout_width="0dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
-        android:text="식사 1"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="387dp"
+        android:layout_height="153dp"
+        android:background="@drawable/shape_button_main"
+        android:drawableRight="@drawable/meal"
+        android:gravity="left|center_vertical"
+        android:padding="15dip"
+        android:paddingLeft="15dip"
+        android:text="와퍼                        1개
+프렌치프라이         R
+    콜라                        R
+"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.133" />
+        app:layout_constraintVertical_bias="0.192" />
 
-    <Button
-        android:id="@+id/meal2"
-        android:layout_width="0dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
-        android:text="식사 2"
+    <TextView
+        android:id="@+id/diet"
+        android:layout_width="264dp"
+        android:layout_height="56dp"
+        android:text="식사1"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.108"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.274" />
-
-    <Button
-        android:id="@+id/meal3"
-        android:layout_width="0dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
-        android:text="식사 3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.414" />
-
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="0dp"
-        android:layout_height="300dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
-        android:background="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.839" >
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/cal_bar"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:layout_gravity="bottom"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_weight="1"
-                android:text="칼로리" />
-
-            <Button
-                android:id="@+id/carbs_bar"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_gravity="bottom"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_weight="1"
-                android:text="탄수화물" />
-
-            <Button
-                android:id="@+id/protein_bar"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_gravity="bottom"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_weight="1"
-                android:text="단백질" />
-
-            <Button
-                android:id="@+id/fat_bar"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_gravity="bottom"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_weight="1"
-                android:text="지방" />
-
-            <Button
-                android:id="@+id/sodium_bar"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_gravity="bottom"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_weight="1"
-                android:text="나트륨" />
-
-        </LinearLayout>
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintVertical_bias="0.117" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

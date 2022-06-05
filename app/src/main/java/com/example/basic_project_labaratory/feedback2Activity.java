@@ -4,12 +4,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class feedback2Activity extends AppCompatActivity {
     @Override // 식단 피드백 2 - 일별 식단 피드백
-    protected void onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feedback2);
 
@@ -25,13 +26,13 @@ public class feedback2Activity extends AppCompatActivity {
         int sodium = getIntent().getIntExtra("intSodium", 1);
 
 
-
         // 식단 피드백 2 - 제목 표시용 버튼 및 텍스트
         Button feedback2ActivityTitle = findViewById(R.id.feedback2ActivityTitle);
         feedback2ActivityTitle.setText(year + "년 " + month + "월 " + day + "일 식단 피드백");
+        TextView textView = findViewById(R.id.diet);
 
         ///// 차트 그리기 //////////
-        Button calBar = findViewById(R.id.cal_bar);
+        /*Button calBar = findViewById(R.id.cal_bar);
         Button carbsBar = findViewById(R.id.carbs_bar);
         Button proteinBar = findViewById(R.id.protein_bar);
         Button fatBar = findViewById(R.id.fat_bar);
@@ -41,16 +42,17 @@ public class feedback2Activity extends AppCompatActivity {
         carbsBar.setHeight(150 * (carbs/324));
         proteinBar.setHeight(150 * (protein/55));
         fatBar.setHeight(150 * (fat/54));
-        sodiumBar.setHeight(150 * (sodium/2000));
+        sodiumBar.setHeight(150 * (sodium/2000));/**/
 
         /////////////////////////
 
         // 식사 1 상세정보 가는 버튼
         Button meal1 = findViewById(R.id.meal1);
         // 식사 2 상세정보 가는 버튼
-        Button meal2 = findViewById(R.id.meal2);
+        /*Button meal2 = findViewById(R.id.meal2);
         // 식사 3 상세정보 가는 버튼
         Button meal3 = findViewById(R.id.meal3);
+         */
 
         // 식사 1 상세정보 화면으로 넘어가기
         meal1.setOnClickListener(new View.OnClickListener() {
@@ -67,7 +69,7 @@ public class feedback2Activity extends AppCompatActivity {
         });
 
         // 식사 2 상세정보 화면으로 넘어가기
-        meal2.setOnClickListener(new View.OnClickListener() {
+        /*meal2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), feedback3Activity.class);
@@ -93,6 +95,8 @@ public class feedback2Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    }
 
+
+         */
+    }
 }
